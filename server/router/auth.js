@@ -28,7 +28,7 @@ const {name,email,password,cpassword} = req.body
         //res.json({success:true});
 
     }catch(err){console.log(err)
-        res.json({status:422,message:"false"});
+        res.json({status:422,message:"true"});
     }
 })
 module.exports = router;
